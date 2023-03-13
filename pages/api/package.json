@@ -1,0 +1,13 @@
+
+  {
+  "name": "line-bot",
+  "version": "1.0.0",
+  "description": "A simple Line Bot example",
+  "main": "index.js",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
