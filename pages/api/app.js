@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors)
 
-app.post('/lineBot', async (req, res) => {
+app.post('/api/app/linebot', async (req, res) => {
 
   cors(req, res, async () => {
     const client = new line.Client({
